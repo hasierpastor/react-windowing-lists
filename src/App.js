@@ -13,7 +13,7 @@ class App extends Component {
     };
   }
 
-  //make api call to get list launches and add to state
+  //make api call to get list launches and update state
   componentDidMount = async () => {
     try {
       let resp = await axios.get(URL);
